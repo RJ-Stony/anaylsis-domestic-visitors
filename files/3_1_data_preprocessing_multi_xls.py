@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Feb 18 08:58:05 2025
-
-@author: Roh Jun Seok
-"""
-
 import pandas as pd
 
 kto_201901 = pd.read_excel('./data/kto_201901.xlsx',
@@ -108,3 +101,4 @@ df = pd.read_excel('./files/kto_total.xlsx')
 for nation, temp in df.groupby('국적'):
     filename = f'[국적별 관광객 데이터] {nation}.xlsx'
     temp.to_excel(f'./국적별/{filename}', index=False)
+  
