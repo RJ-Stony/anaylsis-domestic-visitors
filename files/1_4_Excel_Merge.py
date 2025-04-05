@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Feb 18 08:57:43 2025
-
-@author: Roh Jun Seok
-"""
-
 import pandas as pd
 
 excel_names = ['./files/melon.xlsx',
