@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Feb 18 08:57:02 2025
-
-@author: Roh Jun Seok
-"""
-
 from selenium import webdriver
 driver = webdriver.Chrome()
 
